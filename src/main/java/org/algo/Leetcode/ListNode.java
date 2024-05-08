@@ -50,7 +50,7 @@ public class ListNode {
             if(temp1 != null)temp.val += temp1.val;
             if(temp2 != null)temp.val += temp2.val;
             temp.val += reminder;
-            reminder =(int) temp.val / 10;
+            reminder = temp.val / 10;
             temp.val %= 10;
             if(temp1 != null)temp1 = temp1.next;
             if(temp2 != null)temp2 = temp2.next;

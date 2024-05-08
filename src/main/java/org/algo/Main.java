@@ -1,5 +1,4 @@
 package org.algo;
-import org.algo.DataStructures.SinglyLinkedList;
 import org.algo.Leetcode.ListNode;
 
 
